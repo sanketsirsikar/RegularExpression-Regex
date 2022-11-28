@@ -11,5 +11,6 @@ public class UserRegistration {
         valid.checkeMail();
         valid.checkNumber();
         valid.checkPassword();
+        valid.checkPassword2();
     }
 }
