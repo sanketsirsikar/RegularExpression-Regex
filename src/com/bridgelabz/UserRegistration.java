@@ -10,5 +10,6 @@ public class UserRegistration {
         valid.checklastName();
         valid.checkeMail();
         valid.checkNumber();
+        valid.checkPassword();
     }
 }
