@@ -22,4 +22,21 @@ public class CheckValidation {
         }else
             System.out.println("Last Name is Invalid");
     }
+    void checkeMail(){
+        System.out.println("Enter Name for Email Id ");
+        String eMail_Id=sc.next();
+        if (Pattern.matches("^[a-z]{3}[.]?[a-z]{3}[@]{1}[a-z]{2}[.]?[a-z]{2}[.]?[a-z]{2}$",eMail_Id)){
+            System.out.println("Email id is Valid");
+        }else
+            System.out.println("Emaol id is Invalid");
+    }
+
+    void checkNumber(){
+        System.out.println("Enter mobile Number ");
+        String mobile_number=sc.nextLine();
+        if (Pattern.matches("^[0-9]+\s[0-9]{10}$",mobile_number)){
+            System.out.println("Mobile number is Valid");
+        }else
+            System.out.println("Mobile number is Invalid");
+    }
 }
